@@ -1,3 +1,5 @@
 venv
 db.sqlite3
 company_apis/__pycache__
+api/__pycache__
+api/migrations
