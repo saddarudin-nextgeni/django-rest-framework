@@ -9,6 +9,9 @@ class Company(models.Model):
     industry = models.CharField(max_length=255)
     about = models.TextField()
 
+    def __str__(self):
+        return self.name
+
 
 class Employee(models.Model):
     employee_id = models.AutoField(primary_key=True)
